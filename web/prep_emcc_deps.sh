@@ -18,7 +18,8 @@ if [[ -z "${TVM_SOURCE_DIR_SET}" ]]; then
 fi
 
 # Build mlc_wasm_runtime
-cd web && make
+# cd web && make
+cd /content/mlc-llm/web && make
 cd -
 
 # Build tvm's web runtime
